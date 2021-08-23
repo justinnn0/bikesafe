@@ -47,6 +47,8 @@ do_action( 'hestia_before_attachment_wrapper' )
 							printf( esc_html__( 'Size: %s', 'hestia' ), hestia_get_image_sizes() );
 
 							echo '</div>';
+
+							echo "hi";
 						}
 						echo '</p>';
 						if ( comments_open() || get_comments_number() ) :
